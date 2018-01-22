@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Estilos/bootstrap.min.css">
+    <!-- Estilo Personal-->
+    <link rel="stylesheet" href="Estilos/estilo.css">
+    <title>Registro Pag demo</title>
+    <script src="Scripts/validarRegistro.js"></script>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="text-center py-3">
+            <h1 class="display-2">Registro</h1>
+        </div>
+        <form action="" onsubmit="return validar();">
+            <div class="row justify-content-center">
+                <input type="text" id = "nombre" placeholder="Nombre" class="col-5 m-3" required>
+                <input type="text" id = "correo" placeholder="Correo" class="col-5 m-3" required>
+            </div>
+            <div class="row justify-content-center">
+                <input type="password" id = "contraseña" placeholder="Contraseña" class="col-5 m-3" required>
+                <input type="password" id = "validarContraseña" placeholder="Valide su contraseña" class="col-5 m-3" required>
+            </div>
+            <div class="row justify-content-center">
+               <input type="submit" class="btn mx-5 border-dark bg-white">
+            </div>
+        </form>
+    </div>
+    <!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
